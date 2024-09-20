@@ -1,15 +1,15 @@
-<script setup>
-import { RouterView } from 'vue-router'
-import Header from './components/global/TheHeader.vue'
-import Footer from './components/global/TheFooter.vue'
-</script>
-
 <template>
   <Header />
 
-  <main class="container mx-auto pt-10 px-12 text-black text-center">
+  <main class="container mx-auto p-8">
     <RouterView />
   </main>
 
   <Footer />
 </template>
+
+<script setup>
+  import { RouterView } from 'vue-router'
+  import Header from '@/components/global/Header/TheHeader.vue'
+  import Footer from '@/components/global/Footer/TheFooter.vue'
+</script>

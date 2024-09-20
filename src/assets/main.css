@@ -3,17 +3,29 @@
 @tailwind utilities;
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: Lato, sans-serif;
+  scrollbar-width: thin;
 }
 
-html, body, #app{
+html, body, #app {
   height: 100%;
 }
+
 #app {
   display: flex;
   flex-direction: column;
 }
 
-main{
+html{
+  background-color: #E2E2EA;
+  color: #111827;
+}
+
+html.dark {
+  background-color: #111827;
+  color: #E2E2EA;
+}
+
+main {
   flex: 1;
 }
