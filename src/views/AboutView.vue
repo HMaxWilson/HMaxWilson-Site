@@ -1,5 +1,5 @@
 <template>
-  <div class="about pt-8">
+  <div class="about p-4">
     <div class="container mx-auto text-xl space-y-4">
       <p>
         With <strong>nearly a decade of experience</strong> across multiple IT principles, I specialize in <strong>web development</strong> and
@@ -18,8 +18,8 @@
         Professionally, I've had the privilege of working with leading companies in different industries:
       </p>
 
-      <ul class="space-y-2 p-4">
-        <li class="flex items-center space-x-4">
+      <ul class="space-y-4 sm:p-4">
+        <li class="flex flex-col sm:flex-row items-center space-x-4 space-y-4">
           <img src="@/assets/Workplaces/DS-Logo.webp" title="Drilling Systems" alt="Drilling Systems logo" class="w-32 h-16 object-contain dark:bg-gray-200 rounded-md px-2"/>
 
           <p>
@@ -27,7 +27,7 @@
             software company focused on Oil Rig Training Material.
           </p>
         </li>
-        <li class="flex items-center space-x-4">
+        <li class="flex flex-col sm:flex-row items-center space-x-4 space-y-4">
           <img src="@/assets/Workplaces/AdmitOne-Logo.webp" title="Admit One" alt="Admit One logo" class="w-32 h-16 object-contain dark:bg-gray-200 rounded-md px-2"/>
 
           <p>
@@ -35,7 +35,7 @@
             before transitioning into a Web Developer role, building robust ticketing and sales systems.
           </p>
         </li>
-        <li class="flex items-center space-x-4">
+        <li class="flex flex-col sm:flex-row items-center space-x-4 space-y-4">
           <img src="@/assets/Workplaces/PBH-Logo.webp" title="Poole Bay Holdings" alt="Poole Bay Holdings logo" class="w-32 h-16 object-contain dark:bg-gray-200 rounded-md px-2"/>
 
           <p>
