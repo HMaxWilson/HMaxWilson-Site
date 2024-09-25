@@ -1,56 +1,16 @@
 <template>
-  <div>
-    <div id="Profile" class="flex-col space-y-4">
-      <div class="flex flex-col-reverse md:flex-row gap-4">
-        <div class="w-full sm:w-2/3 space-y-4">
-          <div class="flex flex-col text-2xl md:text-3xl">
-            <span>Hi, I'm <b>Harrison</b></span>
-            <span>Your <SelfWritingText :words="words" /> Developer</span>
-          </div>
+  <div class="home">
+    <ProfileSection />
 
-          <div class="text-xl space-y-8">
-            <p>I'm a Full Stack Developer with a passion for creating charming and functional websites.</p>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path class="scale-110 fill-slate-500 dark:fill-gray-800" fill-opacity="1" d="M0,160L48,186.7C96,213,192,267,288,266.7C384,267,480,213,576,192C672,171,768,181,864,186.7C960,192,1056,192,1152,186.7C1248,181,1344,171,1392,165.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
 
-            <p>More info coming soon...</p>
-          </div>
-        </div>
-
-        <div class="flex-1">
-          <AvatarImage />
-        </div>
-      </div>
-
-      <div id="Skills">
-        <div class="flex flex-col md:flex-row items-center md:space-x-4">
-          <p class="text-2xl font-bold md:border-r-2 border-black md:pr-4 mb-2 md:mb-0">Tech Stack</p>
-
-          <ul class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 items-center">
-            <li class="hover:scale-110 transform transition duration-300">
-              <img src="https://skillicons.dev/icons?i=html" title="HTML" alt="HTML skill-icon">
-            </li>
-            <li class="hover:scale-110 transform transition duration-300">
-              <img src="https://skillicons.dev/icons?i=css,tailwind" title="CSS & Tailwind" alt="CSS/Tailwind skill-icon">
-            </li>
-            <li class="hover:scale-110 transform transition duration-300">
-              <img src="https://skillicons.dev/icons?i=js,vue,react" title="JavaScript, Vue & React" alt="JavaScript/Vue/React skill-icon">
-            </li>
-            <li class="hover:scale-110 transform transition duration-300">
-              <img src="https://skillicons.dev/icons?i=php,laravel" title="PHP & Laravel" alt="PHP/Laravel skill-icon">
-            </li>
-            <li class="hover:scale-110 transform transition duration-300">
-              <img src="https://skillicons.dev/icons?i=postgres,mysql" title="PostgreSQL & MySQL" alt="PostgreSQL/MySQL skill-icon">
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
+    <ProjectsSection class="bg-slate-500 dark:bg-gray-800" />
   </div>
 </template>
 
 <script setup>
-  import AvatarImage from '@/components/global/Pages/Home/AvatarImage.vue';
-  import SelfWritingText from '@/components/global/SelfWritingText.vue';
-
-  const words = ['HTML', 'CSS', 'PHP', 'Full Stack'];
+  import ProfileSection from "@/components/global/Pages/Home/ProfileSection.vue";
+  import ProjectsSection from "@/components/global/Pages/Home/ProjectsSection.vue";
 </script>

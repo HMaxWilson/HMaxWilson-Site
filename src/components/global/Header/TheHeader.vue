@@ -1,14 +1,15 @@
 <template>
   <header class="bg-gray-200 dark:bg-gray-800 border-b border-gray-300 dark:border-gray-500 shadow-md">
     <div class="container mx-auto p-4">
-      <div class="flex justify-between">
+      <div class="flex justify-between items-center">
         <div class="flex space-x-4 items-center">
           <ThemeToggle />
 
           <HeaderLogo />
         </div>
 
-        <HeaderNavigation />
+        <HeaderMenu class="md:hidden" />
+        <HeaderNavigation class="hidden md:block" />
       </div>
     </div>
   </header>

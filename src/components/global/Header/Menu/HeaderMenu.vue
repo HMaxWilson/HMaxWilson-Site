@@ -7,11 +7,3 @@
     </ul>
   </nav>
 </template>
-
-<script setup>
-
-const navigation = [
-  { name: 'Home', link: '/' },
-  { name: 'About', link: '/about' }
-]
-</script>

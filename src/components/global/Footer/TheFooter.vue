@@ -3,7 +3,10 @@
     <div class="container mx-auto py-4 px-4">
       <div class="flex flex-wrap items-center justify-between">
         <div class="flex flex-wrap mx-auto sm:mx-0 text-sm justify-around font-medium leading-5">
-
+          <ul class="flex space-x-4">
+            <router-link to="/" class="hover:text-blue-600 dark:hover:text-blue-400">Home</router-link>
+            <router-link to="/about" class="hover:text-blue-600 dark:hover:text-blue-400">About</router-link>
+          </ul>
         </div>
 
         <div class="hidden sm:block text-sm">
@@ -12,7 +15,7 @@
         </div>
       </div>
       <div class="text-center py-2">
-        &copy; HMaxWilson 2024
+        &copy; 2024 - HMaxWilson - All Rights Reserved
       </div>
     </div>
   </footer>

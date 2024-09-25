@@ -1,7 +1,7 @@
 <template>
   <Header />
 
-  <main class="container mx-auto p-8">
+  <main>
     <RouterView />
   </main>
 
