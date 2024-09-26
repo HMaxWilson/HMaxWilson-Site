@@ -1,6 +1,6 @@
 <template>
   <div class="about p-4">
-    <div class="container mx-auto text-xl space-y-4">
+    <div class="container mx-auto text-xl space-y-4 max-w-4xl">
       <p>
         With <strong>nearly a decade of experience</strong> across multiple IT principles, I specialize in <strong>web development</strong> and
         <strong>full-stack solutions</strong>. Over the past <strong>6 years</strong>, I've honed my skills in diverse roles, blending
@@ -19,7 +19,7 @@
       </p>
 
       <ul class="space-y-4 sm:p-4">
-        <li class="flex flex-col sm:flex-row items-center space-x-4 space-y-4">
+        <li class="flex flex-col sm:flex-row items-center space-x-4">
           <img src="@/assets/Workplaces/DS-Logo.webp" title="Drilling Systems" alt="Drilling Systems logo" class="w-32 h-16 object-contain dark:bg-gray-200 rounded-md px-2"/>
 
           <p>
@@ -27,17 +27,15 @@
             software company focused on Oil Rig Training Material.
           </p>
         </li>
-        <li class="flex flex-col sm:flex-row items-center space-x-4 space-y-4">
+        <li class="flex flex-col sm:flex-row items-center space-x-4">
           <img src="@/assets/Workplaces/AdmitOne-Logo.webp" title="Admit One" alt="Admit One logo" class="w-32 h-16 object-contain dark:bg-gray-200 rounded-md px-2"/>
-
           <p>
             Over 2 years at <strong>Admit One</strong>, I first contributed to research and development as a Software Developer,
             before transitioning into a Web Developer role, building robust ticketing and sales systems.
           </p>
         </li>
-        <li class="flex flex-col sm:flex-row items-center space-x-4 space-y-4">
+        <li class="flex flex-col sm:flex-row items-center space-x-4">
           <img src="@/assets/Workplaces/PBH-Logo.webp" title="Poole Bay Holdings" alt="Poole Bay Holdings logo" class="w-32 h-16 object-contain dark:bg-gray-200 rounded-md px-2"/>
-
           <p>
             Currently with <strong>Poole Bay Holdings</strong>, I serve as a Full-Stack Web Developer, managing and developing
             over 30 websites. My focus is on ensuring these websites run smoothly, deliver fast performance, and offer an

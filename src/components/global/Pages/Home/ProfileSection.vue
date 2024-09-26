@@ -1,6 +1,6 @@
 <template>
-  <div id="profile" class="container mx-auto flex-col space-y-2 p-4 pb-0">
-    <div class="flex flex-col-reverse md:flex-row gap-4">
+  <div id="profile" class="container mx-auto flex-col space-y-4 p-4 pb-0 max-w-6xl">
+    <div class="flex flex-col-reverse md:flex-row">
       <div class="w-full sm:w-2/3 space-y-4">
         <div class="flex flex-col text-2xl md:text-3xl">
           <span>Hi, I'm <strong>Harrison</strong></span>
@@ -12,8 +12,6 @@
             I'm a passionate and dedicated web developer with <strong>nearly 10 years of experience</strong> across various IT disciplines.
             With a <strong>strong foundation in development</strong> and a focus on creating <strong>fast, user-friendly web solutions</strong>.
           </p>
-
-          <br class="my-4"/>
 
           <p>
             I enjoy tackling <strong>complex challenges</strong> and continuously learning <strong>new technologies</strong>. My journey has equipped me
